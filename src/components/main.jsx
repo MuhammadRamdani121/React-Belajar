@@ -1,10 +1,14 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "../../src/index.css";
-import HelloWordl from "./HellowWorld";
+import HelloWorld from "./HelloWorld";
+import Multi from "./1.Multi_Components/Multiply";
+import JavaScript from "./2.Jsx/JavaScript";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <HelloWordl />
+    <HelloWorld />
+    <Multi />
+    <JavaScript />
   </StrictMode>,
 );
