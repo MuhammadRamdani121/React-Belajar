@@ -3,12 +3,17 @@ import { createRoot } from "react-dom/client";
 import "../../src/index.css";
 import HelloWorld from "./HelloWorld";
 import Multi from "./1.Multi_Components/Multiply";
-import JavaScript from "./2.Jsx/JavaScript";
+import JsJsx from "./2.Jsx/JsJsx";
+import ManggilProps from "./1.Multi_Components/3.props/Manggil";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <HelloWorld />
+    <br />
     <Multi />
-    <JavaScript />
+    <br />
+    <JsJsx />
+    <br />
+    <ManggilProps />
   </StrictMode>,
 );

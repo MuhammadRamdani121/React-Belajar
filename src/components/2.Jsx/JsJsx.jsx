@@ -1,4 +1,4 @@
-export default function JavaScript() {
+export default function JsJsx() {
   const nama = "Ramdani";
   return (
     <>
