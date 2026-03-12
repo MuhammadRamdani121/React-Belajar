@@ -7,6 +7,8 @@ import JsJsx from "./2.Jsx/JsJsx";
 import ManggilProps from "./3.props/Destructuring";
 import Mengirim from "./3.props/Mengirim";
 import SpreadJsx from "./4.spread/Spread";
+import Container from "./5.nested_components/Container";
+import TodoList from "./6.conditional/TodoList";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -20,5 +22,11 @@ createRoot(document.getElementById("root")).render(
     <Mengirim text="Memanggil dengan Attribut" />
     <br />
     <SpreadJsx />
+    <br />
+    <Container>
+      <Multi />
+    </Container>
+    <br />
+    <TodoList />
   </StrictMode>,
 );
