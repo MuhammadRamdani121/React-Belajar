@@ -11,6 +11,7 @@ import Container from "./5.nested_components/Container";
 import TodoList from "./6.conditional/TodoList";
 import ArrayMap from "./7.Collection_Components/ArrayMap";
 import Table from "./8.pure_Components/table";
+import AlertButton from "./9.EventHandling/AlertButton";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -43,5 +44,7 @@ createRoot(document.getElementById("root")).render(
     <br />
     <Table />
     <Table />
+    <br />
+    <AlertButton text="hii " />
   </StrictMode>,
 );
