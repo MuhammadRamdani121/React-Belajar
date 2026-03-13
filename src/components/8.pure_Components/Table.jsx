@@ -4,9 +4,9 @@ export default function Table() {
     <>
       <table>
         <tbody className="border-2">
-          <Row text="Satu" />
-          <Row text="Dua" />
-          <Row text="Tiga" />
+          <Row id="1" text="Satu" />
+          <Row id="2" text="Dua" />
+          <Row id="2" text="Dua" />
         </tbody>
       </table>
     </>

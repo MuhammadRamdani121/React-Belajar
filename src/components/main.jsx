@@ -42,5 +42,6 @@ createRoot(document.getElementById("root")).render(
     <ArrayMap />
     <br />
     <Table />
+    <Table />
   </StrictMode>,
 );
