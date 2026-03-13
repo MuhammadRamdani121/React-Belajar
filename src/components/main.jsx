@@ -10,6 +10,7 @@ import SpreadJsx from "./4.spread/Spread";
 import Container from "./5.nested_components/Container";
 import TodoList from "./6.conditional/TodoList";
 import ArrayMap from "./7.Collection_Components/ArrayMap";
+import Table from "./8.pure_Components/table";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -39,5 +40,7 @@ createRoot(document.getElementById("root")).render(
     <TodoList />
     <br />
     <ArrayMap />
+    <br />
+    <Table />
   </StrictMode>,
 );
