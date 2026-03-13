@@ -9,24 +9,35 @@ import Mengirim from "./3.props/Mengirim";
 import SpreadJsx from "./4.spread/Spread";
 import Container from "./5.nested_components/Container";
 import TodoList from "./6.conditional/TodoList";
+import ArrayMap from "./7.Collection_Components/ArrayMap";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    {/* Test Component */}
     <HelloWorld />
     <br />
+    {/* 1.Multi Component */}
     <Multi />
     <br />
+    {/* 2.JSX */}
     <JsJsx />
     <br />
+    {/* 3.props Destructing */}
     <ManggilProps />
+    {/* 3.2 props attributes */}
     <Mengirim text="Memanggil dengan Attribut" />
     <br />
+    {/* 4.Spread  */}
     <SpreadJsx />
     <br />
+    {/* 5.Nested Component */}
     <Container>
       <Multi />
     </Container>
     <br />
+    {/* 6.Codintional */}
     <TodoList />
+    <br />
+    <ArrayMap />
   </StrictMode>,
 );

@@ -8,7 +8,11 @@ export default function TenaryOperation({
   } else {
     return (
       <>
-        <li>{isCompleted ? <del>{text}</del> : text}</li>
+        {/* <li>{isCompleted ? <del>{text}</del> : text}</li> */}
+        <li>
+          {/* Logical And */}
+          {text} {isCompleted && "✔"}
+        </li>
       </>
     );
   }
