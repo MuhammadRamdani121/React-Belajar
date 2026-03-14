@@ -12,6 +12,7 @@ import TodoList from "./6.conditional/TodoList";
 import ArrayMap from "./7.Collection_Components/ArrayMap";
 import Table from "./8.pure_Components/table";
 import AlertButton from "./9.EventHandling/AlertButton";
+import ButtonSmash from "./9.EventHandling/ButtonSmash";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -45,6 +46,7 @@ createRoot(document.getElementById("root")).render(
     <Table />
     <Table />
     <br />
-    <AlertButton text="hii " />
+    <AlertButton text="Click Me" message="Selamat" />
+    <ButtonSmash text="Smash Me" onSmash={() => alert("you Smash Me")} />
   </StrictMode>,
 );

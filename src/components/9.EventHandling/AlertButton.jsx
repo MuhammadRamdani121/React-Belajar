@@ -1,10 +1,15 @@
-export default function AlertButton({ text }) {
+export default function AlertButton({ text, message }) {
   function handleClick() {
-    alert("Button Clicked");
+    alert(message);
   }
   return (
     <>
-      <button onClick={handleClick}>{text}</button>
+      <button
+        className="border-2 hover:bg-black hover:text-white"
+        onClick={handleClick}
+      >
+        {text}
+      </button>
     </>
   );
 }
