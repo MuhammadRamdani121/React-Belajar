@@ -13,6 +13,7 @@ import ArrayMap from "./7.Collection_Components/ArrayMap";
 import Table from "./8.pure_Components/table";
 import AlertButton from "./9.EventHandling/AlertButton";
 import ButtonSmash from "./9.EventHandling/ButtonSmash";
+import EventObject from "./9.EventHandling/EventObject";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -48,5 +49,6 @@ createRoot(document.getElementById("root")).render(
     <br />
     <AlertButton text="Click Me" message="Selamat" />
     <ButtonSmash text="Smash Me" onSmash={() => alert("you Smash Me")} />
+    <EventObject text="Clickk mee" message="sel" />
   </StrictMode>,
 );
