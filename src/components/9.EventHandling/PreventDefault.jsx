@@ -8,7 +8,7 @@ export default function SearchForm() {
         />
         <button
           onClick={(e) => {
-            e.preventDefault();
+            // e.preventDefault();
             alert("you search");
           }}
         >

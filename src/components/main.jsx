@@ -15,6 +15,7 @@ import AlertButton from "./9.EventHandling/AlertButton";
 import ButtonSmash from "./9.EventHandling/ButtonSmash";
 import EventObject from "./9.EventHandling/EventObject";
 import Toolbar from "./9.EventHandling/EventProgation";
+import SearchForm from "./9.EventHandling/PreventDefault";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -57,5 +58,7 @@ createRoot(document.getElementById("root")).render(
         alert("You click toolbar");
       }}
     />
+    <br />
+    <SearchForm />
   </StrictMode>,
 );
