@@ -14,6 +14,7 @@ import Table from "./8.pure_Components/table";
 import AlertButton from "./9.EventHandling/AlertButton";
 import ButtonSmash from "./9.EventHandling/ButtonSmash";
 import EventObject from "./9.EventHandling/EventObject";
+import Toolbar from "./9.EventHandling/EventProgation";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -50,5 +51,11 @@ createRoot(document.getElementById("root")).render(
     <AlertButton text="Click Me" message="Selamat" />
     <ButtonSmash text="Smash Me" onSmash={() => alert("you Smash Me")} />
     <EventObject text="Clickk mee" message="sel" />
+    <Toolbar
+      onClick={(e) => {
+        e.stopPropagation();
+        alert("You click toolbar");
+      }}
+    />
   </StrictMode>,
 );
