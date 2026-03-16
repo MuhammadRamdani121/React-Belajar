@@ -8,6 +8,7 @@ export default defineConfig({
       input: {
         index: "index.html",
         hello_wordl: "HelloWordl.html",
+        latihan: "LatihanSoal.html",
       },
     },
   },
