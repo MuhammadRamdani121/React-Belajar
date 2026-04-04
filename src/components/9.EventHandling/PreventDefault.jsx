@@ -8,7 +8,8 @@ export default function SearchForm() {
         />
         <button
           onClick={(e) => {
-            // e.preventDefault();
+            // supaya tidak merefresh
+            e.preventDefault();
             alert("you search");
           }}
         >
